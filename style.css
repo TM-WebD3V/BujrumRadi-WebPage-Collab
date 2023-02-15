@@ -90,10 +90,15 @@ html {
 }
 
 
+.collapsing{
+    padding-block-end:1.2rem;
+}
+
 header {
-    border-bottom: 1px solid black;
     padding-inline: 6rem;
+    border-bottom: 1px solid black;
     padding-block: 1em;
+    margin-block-end: 2.5rem;
 }
 
 a {
@@ -125,8 +130,8 @@ button {
 }
 
 .nav-list>li:hover {
-    transition: .2s ease-in;
-    border-bottom: 1px solid var(--clr-neon);
+    transition: .1s ease-in;
+    border-bottom: 2px solid var(--clr-neon);
 }
 
 .nav-list>a:visited {
@@ -217,6 +222,8 @@ ul {
     align-items: center;
     justify-content: space-around;
 }
+
+
 
 .cards {
     outline: 2px solid black;
